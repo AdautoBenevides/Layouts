@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5BA4DD">
+
+    <TextView
+        android:id="@+id/text_login_rl"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="137dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="127dp"
+        android:layout_below="@id/text_login_rl"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="200px"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="136dp"
+        app:srcCompat="@drawable/icon_totoro" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="102dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextEmailAddress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/btn_entrar2"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumberPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="#155B93"
+        android:outlineAmbientShadowColor="#DA0F0F"
+        android:outlineSpotShadowColor="#AE2424"
+        android:shadowColor="#D10101"
+        android:text="Entrar"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F6E5E5"
+        android:textColorHint="#BCB2B2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_password_ll"
+        app:layout_constraintVertical_bias="0.231"
+        app:rippleColor="#DA2323"
+        app:strokeColor="#FF1A1A" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="69dp"
+        android:layout_height="18dp"
+        android:layout_below="@id/btn_entrar2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="46dp"
+        android:text="Cadastrar"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+</RelativeLayout>

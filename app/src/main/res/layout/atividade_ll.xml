@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#251010"
+    android:backgroundTint="#4090CD"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_login_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/img_logo_ll"
+        android:layout_width="171dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/icon_totoro" />
+
+    <EditText
+        android:id="@+id/input_email_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="text|textEmailAddress|textAutoComplete"
+        android:paddingHorizontal="50dp" />
+
+    <EditText
+        android:id="@+id/input_password_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#0B0B0B" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:backgroundTint="#073E6A"
+        android:text="Entrar"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:text="Cadastrar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>
